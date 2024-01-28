@@ -1,0 +1,93 @@
+/* || general */
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.max-width--style {
+    max-width: 1200px;
+    width: 100%;
+}
+
+/* || header */
+
+.main-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+.main-header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-header__left {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.main-header__heading {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.main-header__mist-gardens {
+    color: var(--Primary, #343D33);
+    font-size: 23px;
+    font-weight: 500;
+    letter-spacing: 2.3px;
+}
+
+.main-header__subtitle {
+    color: var(--Gray-1, #333);
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 400;
+    letter-spacing: 0.15px;
+}
+
+.main-header__right {
+    max-width: 796px;
+    width: 100%;
+}
+
+.main-header__nav-list {
+    display: flex;
+    max-width: 796px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-header__nav-item a {
+    color: var(--Primary, #475F45);
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2.1px;
+}
+
+.main-header__nav-item a:hover {
+    text-decoration: underline;
+}
+
+.main-header__nav-item button {
+    padding: 15px 30px;
+    color: var(--Primary, #475F45);
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2.1px;
+    background-color: transparent;
+    border: 2px solid var(--Primary, #475F45);
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.main-header__nav-item button:hover {
+    background-color: #475F45;
+    color: white;
+}
